@@ -51,15 +51,15 @@ PRODUCT_COPY_FILES += \
 
 # Audio
 PRODUCT_COPY_FILES += \
-    device/lge/bullhead/audio_effects.conf:system/etc/audio_effects.conf \
-    device/lge/bullhead/mixer_paths.xml:system/etc/mixer_paths.xml \
-    device/lge/bullhead/audio_platform_info.xml:system/etc/audio_platform_info.xml \
-    device/lge/bullhead/audio_policy_configuration.xml:system/etc/audio_policy_configuration.xml \
-    device/lge/bullhead/audio_policy_volumes_drc.xml:system/etc/audio_policy_volumes_drc.xml \
-    frameworks/av/services/audiopolicy/config/a2dp_audio_policy_configuration.xml:system/etc/a2dp_audio_policy_configuration.xml \
-    frameworks/av/services/audiopolicy/config/r_submix_audio_policy_configuration.xml:system/etc/r_submix_audio_policy_configuration.xml \
-    frameworks/av/services/audiopolicy/config/usb_audio_policy_configuration.xml:system/etc/usb_audio_policy_configuration.xml \
-    frameworks/av/services/audiopolicy/config/default_volume_tables.xml:system/etc/default_volume_tables.xml \
+    device/lge/bullhead/audio_effects.conf:vendor/etc/audio_effects.conf \
+    device/lge/bullhead/mixer_paths.xml:vendor/etc/mixer_paths.xml \
+    device/lge/bullhead/audio_platform_info.xml:vendor/etc/audio_platform_info.xml \
+    device/lge/bullhead/audio_policy_configuration.xml:vendor/etc/audio_policy_configuration.xml \
+    device/lge/bullhead/audio_policy_volumes_drc.xml:vendor/etc/audio_policy_volumes_drc.xml \
+    frameworks/av/services/audiopolicy/config/a2dp_audio_policy_configuration.xml:vendor/etc/a2dp_audio_policy_configuration.xml \
+    frameworks/av/services/audiopolicy/config/r_submix_audio_policy_configuration.xml:vendor/etc/r_submix_audio_policy_configuration.xml \
+    frameworks/av/services/audiopolicy/config/usb_audio_policy_configuration.xml:vendor/etc/usb_audio_policy_configuration.xml \
+    frameworks/av/services/audiopolicy/config/default_volume_tables.xml:vendor/etc/default_volume_tables.xml \
 
 #Sound Trigger
 PRODUCT_COPY_FILES += \
@@ -68,14 +68,14 @@ PRODUCT_COPY_FILES += \
 
 # Input device files
 PRODUCT_COPY_FILES += \
-    device/lge/bullhead/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
-    device/lge/bullhead/qpnp_pon.kl:system/usr/keylayout/qpnp_pon.kl \
-    device/lge/bullhead/uinput-fpc.idc:system/usr/idc/uinput-fpc.idc \
-    device/lge/bullhead/uinput-fpc.kl:system/usr/keylayout/uinput-fpc.kl
+    device/lge/bullhead/gpio-keys.kl:vendor/usr/keylayout/gpio-keys.kl \
+    device/lge/bullhead/qpnp_pon.kl:vendor/usr/keylayout/qpnp_pon.kl \
+    device/lge/bullhead/uinput-fpc.idc:vendor/usr/idc/uinput-fpc.idc \
+    device/lge/bullhead/uinput-fpc.kl:vendor/usr/keylayout/uinput-fpc.kl
 
 # Prebuilt input device calibration files
 PRODUCT_COPY_FILES += \
-    device/lge/bullhead/synaptics_rmi4_i2c.idc:system/usr/idc/synaptics_rmi4_i2c.idc
+    device/lge/bullhead/synaptics_rmi4_i2c.idc:vendor/usr/idc/synaptics_rmi4_i2c.idc
 
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
@@ -118,7 +118,7 @@ PRODUCT_COPY_FILES += \
 
 # For GPS
 PRODUCT_COPY_FILES += \
-    device/lge/bullhead/sec_config:system/etc/sec_config
+    device/lge/bullhead/sec_config:vendor/etc/sec_config
 
 # NFC config files
 PRODUCT_COPY_FILES += \
@@ -127,8 +127,8 @@ PRODUCT_COPY_FILES += \
 
 # For WiFi
 PRODUCT_COPY_FILES += \
-    device/lge/bullhead/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
-    device/lge/bullhead/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
+    device/lge/bullhead/wifi/wpa_supplicant_overlay.conf:vendor/etc/wifi/wpa_supplicant_overlay.conf \
+    device/lge/bullhead/wifi/p2p_supplicant_overlay.conf:vendor/etc/wifi/p2p_supplicant_overlay.conf \
     device/lge/bullhead/wifi/WCNSS_cfg.dat:system/etc/firmware/wlan/qca_cld/WCNSS_cfg.dat \
     device/lge/bullhead/wifi/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini
 
