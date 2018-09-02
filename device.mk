@@ -273,7 +273,16 @@ PRODUCT_PACKAGES += \
     wificond \
     wifilogd \
     wpa_supplicant \
-    wpa_supplicant.conf
+    wpa_supplicant.conf \
+    netutils-wrapper-1.0 \
+    libwifikeystorehal \
+    android.hardware.wifi.offload@1.0:64 \
+    android.hardware.wifi.supplicant@1.0:64 \
+    android.hardware.wifi.supplicant@1.1:64 \
+    android.hardware.hostapd@1.0:64 \
+    android.hardware.wifi@1.0:64 \
+    android.hardware.wifi@1.1:64 \
+    android.hardware.wifi@1.2:64
 
 # Camera
 PRODUCT_PACKAGES += \
